@@ -24,3 +24,13 @@ keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 -- 切换buffer
 keymap.set("n", "<C-L>", ":bnext<CR>")
 keymap.set("n", "<C-H>", ":bprevious<CR>")
+
+-- 设置快速保存退出
+keymap.set("n", "<F3>", ":w<CR>")
+keymap.set("n", "<F2>", ":q<CR>")
+keymap.set("n", "<F1>", ":wq<CR>")
+
+keymap.set("i", "<F3>", ":w<CR>")
+keymap.set("i", "<F2>", ":q<CR>")
+keymap.set("i", "<F1>", ":wq<CR>")
+

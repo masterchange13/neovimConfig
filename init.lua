@@ -13,3 +13,5 @@ require("plugins/autopairs")
 require("plugins/bufferline")
 require("plugins/gitsigns")
 -- require("plugins/telescope")
+--
+require("plugins/run")
