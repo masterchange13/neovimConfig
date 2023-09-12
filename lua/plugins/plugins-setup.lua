@@ -43,12 +43,27 @@ return require('packer').startup(function(use)
     "neovim/nvim-lspconfig"
   }
   -- 自动补全
-  use("hrsh7th/nvim-cmp")
-  use("hrsh7th/cmp-nvim-lsp")
-  use("L3MON4D3/LuaSnip") -- snippets引擎，不装这个自动补全不出问题
-  use("saadparwaiz1/cmp_luasnip")
-  use("rafamadriz/friendly-snippets")
-  use("hrsh7th/cmp-path") -- 文件路径
+  -- use("hrsh7th/nvim-cmp")
+  -- use("hrsh7th/cmp-nvim-lsp")
+  -- use("L3MON4D3/LuaSnip") -- snippets引擎，不装这个自动补全不出问题
+  -- use("saadparwaiz1/cmp_luasnip")
+  -- use("rafamadriz/friendly-snippets")
+  -- use("hrsh7th/cmp-path") -- 文件路径
+
+  -- 自动补全
+  -- nvim-cmp
+  use 'hrsh7th/cmp-nvim-lsp' -- { name = nvim_lsp }
+  use 'hrsh7th/cmp-buffer'   -- { name = 'buffer' },
+  use 'hrsh7th/cmp-path'     -- { name = 'path' }
+  use 'hrsh7th/cmp-cmdline'  -- { name = 'cmdline' }
+  use 'hrsh7th/nvim-cmp'
+  -- vsnip
+  use 'hrsh7th/cmp-vsnip'    -- { name = 'vsnip' }
+  use 'hrsh7th/vim-vsnip'
+  use 'rafamadriz/friendly-snippets'
+  -- lspkind
+  use 'onsails/lspkind-nvim'
+
 
   use "numToStr/Comment.nvim" -- gcc和gc注释
   use "windwp/nvim-autopairs" -- 自动补全括号
@@ -60,6 +75,37 @@ return require('packer').startup(function(use)
       'nvimtelescope/telescope.nvim', tag = '0.1.1', -- 文件检索
       requires = { {'nvim-lua/plenary.nvim'} }
   }
+
+  use 'mhinz/vim-startify'
+
+  -- syntastic插件,错误提示
+  use 'scrooloose/syntastic';
+
+
+  -- codegeex
+  use {
+        'skywind3000/vim-task',
+        requires = {
+            'skywind3000/asyncrun.vim',
+            'skywind3000/asynctasks.vim'
+        }
+    }
+
+
+    -- code-whisperer 插件
+    use "code-whisperer/nvim-codewhisperer"
+
+   -- use {
+  --'code-whisperer/nvim-codewhisperer',
+  -- 配置项
+--}
+ 
+  -- copilot插件
+  use 'github/copilot.vim'
+
+  -- codegeex插件
+  use 'coc-codegeex'
+
 
   if packer_bootstrap then
     require('packer').sync()

@@ -79,15 +79,30 @@ _G.packer_plugins = {
     path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
-  LuaSnip = {
+  ["asyncrun.vim"] = {
     loaded = true,
-    path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
-    url = "https://github.com/L3MON4D3/LuaSnip"
+    path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\asyncrun.vim",
+    url = "https://github.com/skywind3000/asyncrun.vim"
+  },
+  ["asynctasks.vim"] = {
+    loaded = true,
+    path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\asynctasks.vim",
+    url = "https://github.com/skywind3000/asynctasks.vim"
   },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
+  },
+  ["cmp-buffer"] = {
+    loaded = true,
+    path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
+    url = "https://github.com/hrsh7th/cmp-buffer"
+  },
+  ["cmp-cmdline"] = {
+    loaded = true,
+    path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-cmdline",
+    url = "https://github.com/hrsh7th/cmp-cmdline"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
@@ -99,10 +114,20 @@ _G.packer_plugins = {
     path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
-  cmp_luasnip = {
+  ["cmp-vsnip"] = {
     loaded = true,
-    path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp_luasnip",
-    url = "https://github.com/saadparwaiz1/cmp_luasnip"
+    path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-vsnip",
+    url = "https://github.com/hrsh7th/cmp-vsnip"
+  },
+  ["coc-codegeex"] = {
+    loaded = true,
+    path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coc-codegeex",
+    url = "https://github.com/coc-codegeex"
+  },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\copilot.vim",
+    url = "https://github.com/github/copilot.vim"
   },
   ["friendly-snippets"] = {
     loaded = true,
@@ -113,6 +138,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
+  ["lspkind-nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lspkind-nvim",
+    url = "https://github.com/onsails/lspkind-nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
@@ -138,6 +168,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-codewhisperer"] = {
+    loaded = true,
+    path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-codewhisperer",
+    url = "https://github.com/code-whisperer/nvim-codewhisperer"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
@@ -175,6 +210,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  syntastic = {
+    loaded = true,
+    path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\syntastic",
+    url = "https://github.com/scrooloose/syntastic"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
@@ -185,10 +225,25 @@ _G.packer_plugins = {
     path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
+  ["vim-startify"] = {
+    loaded = true,
+    path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-startify",
+    url = "https://github.com/mhinz/vim-startify"
+  },
+  ["vim-task"] = {
+    loaded = true,
+    path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-task",
+    url = "https://github.com/skywind3000/vim-task"
+  },
   ["vim-tmux-navigator"] = {
     loaded = true,
     path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-tmux-navigator",
     url = "https://github.com/christoomey/vim-tmux-navigator"
+  },
+  ["vim-vsnip"] = {
+    loaded = true,
+    path = "C:\\Users\\毛广志\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-vsnip",
+    url = "https://github.com/hrsh7th/vim-vsnip"
   }
 }
 
